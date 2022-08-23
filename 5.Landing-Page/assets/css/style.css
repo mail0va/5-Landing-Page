@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: auto;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* NAVBAR */
+
+.navbar {
+    padding: 2rem 4.5rem;
+    background-color: rgb(244, 244, 244);
+}
+
+.navbar .start {
+    float: left;
+    color: rgba(0, 0, 0, 0.9);
+    font-size: 25px;
+}
+
+.navbar .signup {
+    float: right;
+    padding: 12px 12px;
+    background-color: #0d6efd;
+    color: #fff;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+
+/* HEADER */
+
+.header {
+    background-image: url(https://raw.githubusercontent.com/StartBootstrap/startbootstrap-landing-page/master/dist/assets/img/bg-masthead.jpg);
+    padding: 20rem 0;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+}
+
+.header .header-title {
+    font-size: 3rem;
+    width: 33%;
+    margin: 0 auto;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.header .header-form .input {
+    min-height: calc(1.5em + 2rem + 2px);
+    padding: 14px 66px;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+    border: #fff;
+}
+
+.header .header-form .btn {
+    padding: 20px 23px;
+    background-color: #0d6efd;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 18px;
+    border: #0d6efd;
+}
+
+
+/* FEATURES */
+
+.features .all-boxes .box {
+    padding: 70px;
+    text-align: center;
+    float: left;
+    width: 33%;
+}
+
+.features .all-boxes .box .feature-icon a i {
+    font-size: 88px;
+    color: #0d6efd;
+}
+
+.features .all-boxes .box .feature-title {
+    padding: 10px;
+    font-size: 22px;
+}
+
+.features .all-boxes .box .feature-title p {
+    padding: 10px;
+    font-size: 22px;
+    font-family: system-ui;
+    color: rgb(149, 149, 149);
+}
+
+
+/* SHOWCASE */
+
+.showcase .all-case .cases {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.showcase .all-case .cases .showcase-title {
+    float: left;
+    width: 24%;
+    font-size: 20px;
+}
+
+.showcase .all-case .cases .showcase-image {
+    float: right;
+    width: 60%;
+}
+
+
+/* TESTIMONIALS */
+
+.testimonials .all-testimonials .testimonials-title {
+    text-align: center;
+    font-size: 25px;
+    padding: 33px;
+}
+
+.testimonials .all-testimonials .testimonials-box {
+    float: left;
+    width: 30%;
+}
+
+.testimonials .all-testimonials .testimonials-box .testimonials-image img {
+    clip-path: circle(50% at 50% 50%);
+    width: 100%;
+}
+
+.testimonials .all-testimonials .testimonials-box .testimonials-image {
+    padding: 80px;
+    display: flex;
+    margin-left: 20px;
+}
+
+.testimonials .all-testimonials .testimonials-box .testimonials-desc {
+    text-align: center;
+    padding: 10px;
+}
